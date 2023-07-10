@@ -1,0 +1,65 @@
+@font-face { font-family: Abel; src: url('Abel-Regular.ttf'); } 
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+	text-align: center;
+}
+canvas{
+    background-color: rgb(255, 247, 247);
+}
+
+.wrapper{
+  position:absolute;
+  color:#fff;
+  top:50%;
+  left:50%;
+  padding:70px;
+  border-radius: 20px;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  pointer-events: none;
+  background-color: rgb(226, 214, 214);
+  opacity: .7;
+}
+#commencer {
+    position: relative;
+	background-color: white;
+    color: black;
+    border: 2px solid #f08383; /* Green */
+	border-radius:10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+	font-family:Abel;
+	transition: all .3s ease-in-out;
+	pointer-events: auto;
+    cursor: pointer;
+}
+
+#commencer:hover{
+	background-color: #864444;
+	color:white;
+}
+.centrer{
+	position: relative;
+    top: 50%;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 60px;
+	font-family:Abel;
+	pointer-events: none;
+
+}
